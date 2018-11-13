@@ -55,13 +55,9 @@ security:
       user-info-uri: http://local.gateway.com:8080/api-o/user-me
       prefer-token-info: false
 file:
-  local:
-    path: d:/localFile
-    prefix: /statics
-    urlPrefix: http://api.gateway.com:8080/api-f${file.local.prefix}
   aliyun:
-    endpoint: xxx
-    accessKeyId: xxx
-    accessKeySecret: xxx
-    bucketName: xxx
-    domain: https://xxx
+    endpoint: oss-cn-beijing-internal.aliyuncs.com
+    accessKeyId: LTAIeVwb2hetSmZw
+    accessKeySecret: wrM3mtRIWmXKzDwFnjCexcTF0oAGig
+    bucketName: kcfile
+    domain: https://192.168.0.33:57433
