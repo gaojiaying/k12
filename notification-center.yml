@@ -62,12 +62,12 @@ security:
       user-info-uri: http://local.gateway.com:8080/api-o/user-me
       prefer-token-info: false
 aliyun:
-  accessKeyId: xxx
-  accessKeySecret: xxx
+  accessKeyId: LTAIeVwb2hetSmZw
+  accessKeySecret: wrM3mtRIWmXKzDwFnjCexcTF0oAGig
   sign:
-    name1: xxx
+    name1: 科创中心
   template:
-    code1: xxx
+    code1: SMS_150800008
 sms:
   expire-minute: 15
   day-count: 30
