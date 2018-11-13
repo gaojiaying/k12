@@ -24,7 +24,6 @@ spring:
       maxPoolPreparedStatementPerConnectionSize: 20
       filters: stat,wall
       connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
-      stat-view-servlet:
   rabbitmq:
     host: local.rabbitmq.com
     port: 5672
