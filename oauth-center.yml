@@ -59,6 +59,9 @@ ribbon:
     clients: user-center
   ReadTimeout: 10000
   ConnectTimeout: 10000
+feign: 
+  hystrix: 
+    enabled: true
 hystrix:
   command:
     default:
@@ -66,3 +69,4 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 60000
+            
